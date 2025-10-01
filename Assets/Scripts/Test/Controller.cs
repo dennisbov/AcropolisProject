@@ -13,11 +13,15 @@ public class Controller : MonoBehaviour
     private void Update()
     {
         if(_currentTile != null)
-            _currentTile.gameObject.SetActive(false);
+            _currentTile.GetChild(0).gameObject.SetActive(false);
         if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out RaycastHit hit, float.PositiveInfinity, _planetLayer))
         {
-                _currentTile = hit.transform.GetChild(0);
-                _currentTile.gameObject.SetActive(true);
+                _currentTile = hit.transform;
+                _currentTile.GetChild(0).gameObject.SetActive(true);
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            _testObject.AddTarget(_currentTile.GetComponent<TileGeometry>().globalCenter);
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -24,7 +25,20 @@ public class CreateFrames : MonoBehaviour
                 if (_tile.childCount > 0)
                     _tile.GetChild(0).gameObject.SetActive(false);
             }
-            if (_onlyDestroy)
+            foreach (Transform _tile in _planet)
+            {
+                TileGeometry tile = _tile.GetComponent<TileGeometry>();
+                Mesh mesh = _tile.GetComponent<MeshFilter>().sharedMesh;
+                Vector3 center = new Vector3();
+                foreach (Vector3 vertice in mesh.vertices)
+                {
+                    center += vertice;
+                }
+                center = center / mesh.vertices.Length;
+                tile.globalCenter = center;
+                tile.scale = Vector3.Distance(center, mesh.vertices[0])*_tile.lossyScale.x;
+            }
+                if (_onlyDestroy)
                 return;
             foreach (Transform tile in _planet)
             {
