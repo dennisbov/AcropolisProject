@@ -6,4 +6,5 @@ public class TileGeometry : MonoBehaviour
 {
     public Vector3 globalCenter;
     public float scale;
+    public int id;
 }

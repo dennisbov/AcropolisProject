@@ -24,7 +24,13 @@ public class CreateFrames : MonoBehaviour
             {
                 if (_tile.childCount > 0)
                     _tile.GetChild(0).gameObject.SetActive(false);
+                
             }
+            for(int i = 0; i < _planet.childCount; i++)
+            {
+                _planet.GetChild(i).GetComponent<TileGeometry>().id = i;
+            }
+            
             foreach (Transform _tile in _planet)
             {
                 TileGeometry tile = _tile.GetComponent<TileGeometry>();
@@ -35,10 +41,10 @@ public class CreateFrames : MonoBehaviour
                     center += vertice;
                 }
                 center = center / mesh.vertices.Length;
-                tile.globalCenter = center;
+                tile.globalCenter = center * _tile.lossyScale.x;
                 tile.scale = Vector3.Distance(center, mesh.vertices[0])*_tile.lossyScale.x;
             }
-                if (_onlyDestroy)
+            if (_onlyDestroy)
                 return;
             foreach (Transform tile in _planet)
             {
