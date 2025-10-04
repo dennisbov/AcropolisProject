@@ -30,18 +30,9 @@ namespace ProjectAcropolis
         
         public void Update()
         {
-            if (transform.position.normalized == _currentTarget.normalized && _targetPositions.Count > 0)
+            if (_targetPositions.Count > 0 && _pointToFollow.normalized == _currentTarget.normalized)
             {
                 _currentTarget = _targetPositions.Dequeue();
-                _pointToFollow = transform.position;
-                _isRotating = true;
-            }
-
-            if (_currentTarget.normalized == transform.position.normalized)
-            {
-                _pointToFollow = transform.position;
-                _isRotating = true;
-                return;
             }
 
             if (_sphericalTransform.LookAngle(_currentTarget) > 0 && _isRotating)
@@ -65,11 +56,17 @@ namespace ProjectAcropolis
             if(_targetPositions.Count == 0)
             {
                 _currentTarget = target;
-                _isRotating = true;
-                return;
             }
             _targetPositions.Enqueue(target);
             _isRotating = true;
+        }
+
+        public void AddTarget(List<Vector3> target)
+        {
+            foreach(Vector3 t in target)
+            {
+                AddTarget(t);
+            }
         }
         
     }

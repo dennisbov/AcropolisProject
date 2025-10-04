@@ -2,16 +2,81 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PathFinder
 {
     private List<TileGraphVertex> tileGraphVertices;
     private List<int> obstacleId;
-    public PathFinder(List<TileGraphVertex> tileGraphVertices, List<int> obstacleId) 
+    private List<WayPoint> avaliableWaypoints;
+    public PathFinder(List<TileGraphVertex> tileGraphVertices, List<int> obstacleId, int startTileId, int range) 
     {
         this.tileGraphVertices = tileGraphVertices;
         this.obstacleId = obstacleId;
+        GenerateAlailableTiles(startTileId, range);
+    }
+
+    public bool GetPathTo(int target, out List<int> path)
+    {
+        path = new List<int>();
+
+        WayPoint currentWayPoint = new WayPoint(target);
+        if (avaliableWaypoints.Contains(currentWayPoint) == false)
+        {
+            return false;
+        }
+        currentWayPoint = avaliableWaypoints[avaliableWaypoints.IndexOf(currentWayPoint)];
+        
+        while (currentWayPoint.parent != null)
+        {
+            path.Add(currentWayPoint.parent.id);
+            currentWayPoint = currentWayPoint.parent;
+        }
+        path.RemoveAt(path.Count - 1); 
+        path.Reverse();
+        return true;
+    }
+
+    public List<int> GetAvailableTiles()
+    {
+        List<int> result = new List<int>();
+        foreach(WayPoint wayPoint in avaliableWaypoints)
+        {
+            result.Add(wayPoint.id);
+        }
+        return result;
+    }
+
+    public void GenerateAlailableTiles(int startTileId, int range)
+    {
+        avaliableWaypoints = new List<WayPoint>();
+
+        List<WayPoint> nextWaypoints = new List<WayPoint>();
+        List<WayPoint> currentWaypoints = new List<WayPoint>() { new WayPoint(startTileId) };
+
+        for (int i = 0;  i < range; i++)
+        {
+            foreach(WayPoint wayPoint in currentWaypoints)
+            {
+                foreach(TileGraphVertex vertex in tileGraphVertices[wayPoint.id].neighbourVertices)
+                {
+                    WayPoint current = new WayPoint(vertex.id);
+                    if (avaliableWaypoints.Contains(current) || obstacleId.Contains(current.id))
+                        continue;
+                    current.parent = wayPoint;
+                    avaliableWaypoints.Add(current);
+                    nextWaypoints.Add(current);
+                }
+            }
+
+            currentWaypoints.Clear();
+            foreach (WayPoint waypoint in nextWaypoints)
+            {
+                currentWaypoints.Add(waypoint);
+            }
+            nextWaypoints.Clear();
+        }
     }
 
     public List<int> FindPath(int from, int to)
@@ -63,6 +128,16 @@ public class PathFinder
         {
             WayPoint other = obj as WayPoint;
             return other.f - this.f;
+        }
+        public override bool Equals(object obj)
+        {
+            return obj is WayPoint point &&
+                   id == point.id;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(id, f, parent, g, h);
         }
     }
     private class SortingTree

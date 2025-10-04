@@ -27,26 +27,5 @@ public class Controller : MonoBehaviour
         {
             _testObject.AddTarget(_currentTile.GetComponent<TileGeometry>().globalCenter);
         }
-
-        if (Input.GetMouseButtonDown(2))
-        {
-            if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out RaycastHit hit1, float.PositiveInfinity, _planetLayer))
-            {
-                if (hit1.transform.TryGetComponent<TileGeometry>(out TileGeometry tile))
-                {
-                    if(_selectedTileIndex > 0)
-                    {
-                        Debug.Log($"to {tile.id} distance is:");
-                        Debug.Log(_tileDistancesRepository.GetDistance(_selectedTileIndex, tile.id));
-                        _selectedTileIndex = -1;
-                    }
-                    else
-                    {
-                        _selectedTileIndex = tile.id;
-                        Debug.Log($"from {_selectedTileIndex}");
-                    }
-                }
-            }
-        }
     }
 }
