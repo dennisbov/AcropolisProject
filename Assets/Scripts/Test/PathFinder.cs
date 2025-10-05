@@ -19,7 +19,7 @@ public class PathFinder
 
     public bool GetPathTo(int target, out List<int> path)
     {
-        path = new List<int>();
+        path = new List<int>() { target };
 
         WayPoint currentWayPoint = new WayPoint(target);
         if (avaliableWaypoints.Contains(currentWayPoint) == false)

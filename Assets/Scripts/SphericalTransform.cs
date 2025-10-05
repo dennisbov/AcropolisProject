@@ -35,7 +35,7 @@ public class SphericalTransform : MonoBehaviour
             transform.position - planetCenter,
             targetPosition - planetCenter,
             maxDistanceDelta,
-            0);
+            1);
         transform.position = findRaycastHitOnPlanet(resultVector + planetCenter).point;
     }
 

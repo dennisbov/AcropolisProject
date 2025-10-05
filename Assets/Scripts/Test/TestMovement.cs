@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace ProjectAcropolis
 {
@@ -14,6 +16,9 @@ namespace ProjectAcropolis
         [SerializeField] private float _acceleration;
         [SerializeField] private float _rotationSpeed;
         [SerializeField] private float _rotationSpeedOnSpot;
+        [SerializeField] private float _toleratedAngleToTarget;
+
+        [SerializeField] private TMP_Text _debugAngle;
 
         private float _currentSpeed;
         private int _accelerationSing;
@@ -30,7 +35,11 @@ namespace ProjectAcropolis
         
         public void Update()
         {
-            if (_targetPositions.Count > 0 && _pointToFollow.normalized == _currentTarget.normalized)
+            _debugAngle.text = Vector3.Angle(_pointToFollow, _currentTarget).ToString();
+            if (Vector3.Angle(transform.position, _currentTarget) < _toleratedAngleToTarget && _targetPositions.Count == 0)
+                return;
+
+            if (_targetPositions.Count > 0 && Vector3.Angle(_pointToFollow, _currentTarget) < _toleratedAngleToTarget)
             {
                 _currentTarget = _targetPositions.Dequeue();
             }
@@ -44,7 +53,7 @@ namespace ProjectAcropolis
             _isRotating = false;
  
 
-            _pointToFollow = Vector3.RotateTowards(_pointToFollow, _currentTarget, _maxSpeed * Time.deltaTime, 0);
+            _pointToFollow = Vector3.RotateTowards(_pointToFollow, _currentTarget, _maxSpeed * Time.deltaTime, 1);
             float delay = Vector3.Angle(transform.position, _pointToFollow);
 
             _sphericalTransform.LookTowards(_currentTarget, _rotationSpeed * Time.deltaTime);
@@ -56,9 +65,9 @@ namespace ProjectAcropolis
             if(_targetPositions.Count == 0)
             {
                 _currentTarget = target;
+                _isRotating = true;
             }
             _targetPositions.Enqueue(target);
-            _isRotating = true;
         }
 
         public void AddTarget(List<Vector3> target)
