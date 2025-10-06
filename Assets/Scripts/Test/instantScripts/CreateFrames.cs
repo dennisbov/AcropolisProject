@@ -36,13 +36,18 @@ public class CreateFrames : MonoBehaviour
                 TileGeometry tile = _tile.GetComponent<TileGeometry>();
                 Mesh mesh = _tile.GetComponent<MeshFilter>().sharedMesh;
                 Vector3 center = new Vector3();
+                Vector3 thirdVertex = new Vector3();
                 foreach (Vector3 vertice in mesh.vertices)
                 {
                     center += vertice;
+                    if (vertice != mesh.vertices[0] 
+                        && (mesh.vertices[0] - center).normalized != (-(vertice - center)).normalized)
+                        thirdVertex = vertice;
                 }
                 center = center / mesh.vertices.Length;
                 tile.globalCenter = center * _tile.lossyScale.x;
                 tile.scale = Vector3.Distance(center, mesh.vertices[0])*_tile.lossyScale.x;
+                tile.normal = new Plane(center, mesh.vertices[0], thirdVertex).normal;
             }
             if (_onlyDestroy)
                 return;
