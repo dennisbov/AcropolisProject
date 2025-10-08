@@ -1011,6 +1011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.22725981, y: -0.69944394, z: 0.6358066}
+  normal: {x: -0.23710516, y: -0.704772, z: 0.6686386}
+  innerSphereRadius: 0.14309728
   scale: 0.16752037
   id: 17
 --- !u!64 &43415699
@@ -2219,6 +2221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.46703875, y: 0.6994454, z: -0.48761567}
+  normal: {x: 0.4985671, y: 0.70954305, z: -0.4979754}
+  innerSphereRadius: 0.14425434
   scale: 0.16925062
   id: 93
 --- !u!1 &68701522
@@ -2762,6 +2766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.6690824, y: -0.660321, z: -0.24783637}
+  normal: {x: -0.6782875, y: -0.693426, z: -0.24307714}
+  innerSphereRadius: 0.13521172
   scale: 0.15691145
   id: 13
 --- !u!1 &81904187
@@ -3967,6 +3973,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.13529181, y: 0.4163777, z: 0.8630802}
+  normal: {x: 0.14348869, y: 0.4416043, z: 0.8856617}
+  innerSphereRadius: 0.15469055
   scale: 0.17940718
   id: 26
 --- !u!1 &122021501
@@ -4230,6 +4238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.78293073, y: 0.5688296, z: -0.0056100963}
+  normal: {x: 0.808909, y: 0.5877027, z: -0.016486181}
+  innerSphereRadius: 0.15469313
   scale: 0.17649552
   id: 71
 --- !u!64 &126024770
@@ -6945,6 +6955,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.5208915, y: 0.66031927, z: -0.48761576}
+  normal: {x: -0.5207521, y: 0.6934251, z: -0.49797475}
+  innerSphereRadius: 0.14425418
   scale: 0.16924945
   id: 88
 --- !u!1 &227776029
@@ -7308,6 +7320,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.15731342, y: 0.48416653, z: -0.8237236}
+  normal: {x: 0.16772105, y: 0.4982774, z: -0.85064054}
+  innerSphereRadius: 0.15196556
   scale: 0.17593786
   id: 140
 --- !u!1 &249794461
@@ -7361,6 +7375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.6532485, y: -0.663049, z: 0.26497456}
+  normal: {x: -0.6846141, y: -0.67795104, z: 0.26774225}
+  innerSphereRadius: 0.15469357
   scale: 0.17941152
   id: 62
 --- !u!4 &253035217 stripped
@@ -9483,6 +9499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6476358, y: 0.15244661, z: 0.702787}
+  normal: {x: 0.6661704, y: 0.14841235, z: 0.73088354}
+  innerSphereRadius: 0.15469112
   scale: 0.17649125
   id: 31
 --- !u!1 &303835495
@@ -9654,6 +9672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.27048323, y: -0.83247274, z: -0.43766344}
+  normal: {x: 0.27638978, y: -0.85064924, z: -0.44721878}
+  innerSphereRadius: 0.10958594
   scale: 0.13545522
   id: 115
 --- !u!64 &312926872
@@ -10218,6 +10238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.83476424, y: 0.43227807, z: -0.24783562}
+  normal: {x: -0.8650359, y: 0.4432885, z: -0.23496433}
+  innerSphereRadius: 0.14309825
   scale: 0.15691233
   id: 87
 --- !u!1 &343149682
@@ -12411,6 +12433,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.666402, y: -0.48416838, z: -0.5090913}
+  normal: {x: 0.6905334, y: -0.50170183, z: -0.5210172}
+  innerSphereRadius: 0.15196653
   scale: 0.17524698
   id: 139
 --- !u!1 &447920211
@@ -12757,6 +12781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.03327616, y: 0.84038216, z: -0.48761585}
+  normal: {x: 0.0137030175, y: 0.8670832, z: -0.49797496}
+  innerSphereRadius: 0.14309707
   scale: 0.15690963
   id: 92
 --- !u!64 &456146182
@@ -12959,6 +12985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6664019, y: 0.48416817, z: -0.5090915}
+  normal: {x: 0.6858239, y: 0.49827918, z: -0.530437}
+  innerSphereRadius: 0.15256831
   scale: 0.17593981
   id: 141
 --- !u!1 &471125045 stripped
@@ -13424,6 +13452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.34511948, y: 0.5688263, z: -0.7027874}
+  normal: {x: -0.3470099, y: 0.5877001, z: -0.7308849}
+  innerSphereRadius: 0.15168025
   scale: 0.17649262
   id: 89
 --- !u!1 &493056599
@@ -13630,6 +13660,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.5691772, y: 0.78340334, z: -0.000000027163575}
+  normal: {x: -0.58396727, y: 0.811772, z: -0.0029090194}
+  innerSphereRadius: 0.15196815
   scale: 0.17524704
   id: 150
 --- !u!1 &505099197
@@ -14446,6 +14478,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.41185808, y: -0.2992292, z: 0.8237236}
+  normal: {x: 0.4220628, y: -0.3134876, z: 0.85064006}
+  innerSphereRadius: 0.15256695
   scale: 0.17593725
   id: 159
 --- !u!1 &531830379
@@ -16823,6 +16857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.92942685, y: -0.14093621, z: 0.24783406}
+  normal: {x: -0.9563314, y: -0.1623112, z: 0.24307488}
+  innerSphereRadius: 0.14480297
   scale: 0.16925073
   id: 132
 --- !u!114 &619293782
@@ -16838,6 +16874,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6532481, y: -0.6630495, z: -0.26497534}
+  normal: {x: 0.684615, y: -0.6779504, z: -0.26774147}
+  innerSphereRadius: 0.15469354
   scale: 0.17941128
   id: 77
 --- !u!64 &619739156
@@ -17402,6 +17440,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.6476362, y: 0.15244637, z: -0.7027866}
+  normal: {x: -0.6653758, y: 0.14606516, z: -0.73207927}
+  innerSphereRadius: 0.15469125
   scale: 0.17940685
   id: 104
 --- !u!1 &634493175
@@ -18459,6 +18499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.42873523, y: -0.82616806, z: 0.2649753}
+  normal: {x: 0.43522495, y: -0.8592002, z: 0.26898757}
+  innerSphereRadius: 0.15414259
   scale: 0.17867756
   id: 57
 --- !u!1 &675231534
@@ -25179,6 +25221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.34511966, y: -0.5688257, z: 0.7027879}
+  normal: {x: 0.344532, y: -0.5876703, z: 0.7320801}
+  innerSphereRadius: 0.1541398
   scale: 0.17940831
   id: 35
 --- !u!1 &894826413
@@ -25770,6 +25814,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.3451203, y: -0.56882614, z: -0.7027874}
+  normal: {x: -0.34701023, y: -0.58770025, z: -0.7308846}
+  innerSphereRadius: 0.15168056
   scale: 0.17649311
   id: 3
 --- !u!43 &904782950
@@ -26380,6 +26426,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.19398297, y: -0.14093548, z: 0.94214016}
+  normal: {x: 0.21027113, y: -0.16230828, z: 0.96407574}
+  innerSphereRadius: 0.13520867
   scale: 0.15690823
   id: 33
 --- !u!1 &933834504
@@ -27442,6 +27490,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.4287349, y: 0.8261682, z: 0.2649755}
+  normal: {x: 0.43522513, y: 0.8592, z: 0.26898777}
+  innerSphereRadius: 0.15469322
   scale: 0.17649361
   id: 49
 --- !u!1 &982701071
@@ -27751,6 +27801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.34511966, y: 0.5688257, z: 0.7027879}
+  normal: {x: 0.34453222, y: 0.5876697, z: 0.7320805}
+  innerSphereRadius: 0.15413916
   scale: 0.17940776
   id: 28
 --- !u!43 &997059018
@@ -39799,6 +39851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.19398326, y: -0.14093569, z: -0.94214}
+  normal: {x: -0.21934223, y: -0.14982195, z: -0.9640759}
+  innerSphereRadius: 0.14480135
   scale: 0.1692474
   id: 4
 --- !u!1 &1093984923
@@ -39935,6 +39989,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.7889686, y: 0.29134077, z: -0.48761484}
+  normal: {x: -0.81229514, y: 0.28097892, z: -0.51110417}
+  innerSphereRadius: 0.14425409
   scale: 0.16752101
   id: 122
 --- !u!4 &1100714744 stripped
@@ -39956,6 +40012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.35419363, y: -0.25733656, z: 0.86307925}
+  normal: {x: -0.37368014, y: -0.27149555, z: 0.8869348}
+  innerSphereRadius: 0.1546917
   scale: 0.1764922
   id: 38
 --- !u!43 &1104597070
@@ -40444,6 +40502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.4343406, y: 0.5040029, z: -0.70278716}
+  normal: {x: 0.45244458, y: 0.50926787, z: -0.7320793}
+  innerSphereRadius: 0.15469255
   scale: 0.17940849
   id: 94
 --- !u!1 &1121925959
@@ -40570,6 +40630,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.055146903, y: 0.66304517, z: 0.702788}
+  normal: {x: 0.06669857, y: 0.6779448, z: 0.7320807}
+  innerSphereRadius: 0.1516801
   scale: 0.17307317
   id: 27
 --- !u!64 &1125859399
@@ -40613,6 +40675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.666402, y: -0.4841682, z: 0.50909126}
+  normal: {x: -0.69053376, y: -0.5017025, z: 0.521016}
+  innerSphereRadius: 0.15196688
   scale: 0.17524801
   id: 152
 --- !u!1 &1129437058
@@ -40909,6 +40973,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.9209481, y: -0.29923084, z: -0.00000055394287}
+  normal: {x: -0.94958717, y: -0.3134897, z: 0.0029095397}
+  innerSphereRadius: 0.15256858
   scale: 0.17594054
   id: 143
 --- !u!64 &1142959022
@@ -40952,6 +41018,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.7081455, y: 0.51449233, z: 0.437663}
+  normal: {x: 0.7236076, y: 0.5257258, z: 0.44721857}
+  innerSphereRadius: 0.10958643
   scale: 0.13545561
   id: 127
 --- !u!1 &1143346285
@@ -41142,6 +41210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.59498453, y: 0.43227687, z: -0.6358061}
+  normal: {x: -0.60607994, y: 0.4308007, z: -0.6686388}
+  innerSphereRadius: 0.14309654
   scale: 0.16751878
   id: 103
 --- !u!1 &1157169906
@@ -41217,6 +41287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.15731305, y: -0.48416635, z: 0.8237239}
+  normal: {x: -0.1571887, y: -0.5016985, z: 0.85064113}
+  innerSphereRadius: 0.1519657
   scale: 0.1759378
   id: 157
 --- !u!1 &1163364635
@@ -41489,6 +41561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.05514746, y: -0.6630456, z: -0.70278764}
+  normal: {x: -0.06471104, y: -0.679426, z: -0.7308849}
+  innerSphereRadius: 0.1546915
   scale: 0.17649299
   id: 109
 --- !u!64 &1166682875
@@ -41532,6 +41606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.23977605, y: 0.0000000019402555, z: 0.9421396}
+  normal: {x: -0.26551494, y: 0.007716975, z: 0.96407586}
+  innerSphereRadius: 0.14425239
   scale: 0.16751844
   id: 37
 --- !u!64 &1167134328
@@ -41575,6 +41651,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.074094, y: 0.22803943, z: -0.94214}
+  normal: {x: 0.08938836, y: 0.250135, z: -0.9640758}
+  innerSphereRadius: 0.143096
   scale: 0.15690899
   id: 7
 --- !u!1 &1168289790
@@ -42077,6 +42155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.9209479, y: 0.2992309, z: 0.00000018044375}
+  normal: {x: 0.95249784, y: 0.3045314, z: 0.0029092007}
+  innerSphereRadius: 0.15196584
   scale: 0.17524622
   id: 149
 --- !u!1 &1184136071
@@ -42359,6 +42439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.22726002, y: 0.699444, z: -0.63580644}
+  normal: {x: 0.23710674, y: 0.7047716, z: -0.66863847}
+  innerSphereRadius: 0.14425398
   scale: 0.16752073
   id: 120
 --- !u!64 &1190880604
@@ -42402,6 +42484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.4343406, y: -0.5040037, z: -0.7027867}
+  normal: {x: 0.45244473, y: -0.5092676, z: -0.7320794}
+  innerSphereRadius: 0.15168126
   scale: 0.1730734
   id: 101
 --- !u!64 &1192674876
@@ -42445,6 +42529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.50908506, y: -0.0000000019402555, z: 0.82372195}
+  normal: {x: -0.525721, y: 0.0055360743, z: 0.85063905}
+  innerSphereRadius: 0.1519656
   scale: 0.17524503
   id: 158
 --- !u!64 &1194225564
@@ -42488,6 +42574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.43433997, y: -0.50400347, z: 0.70278734}
+  normal: {x: -0.4517048, y: -0.5116339, z: 0.7308855}
+  innerSphereRadius: 0.15414001
   scale: 0.17867526
   id: 39
 --- !u!1 &1196744433
@@ -42751,6 +42839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.809537, y: 0.22804025, z: -0.48761308}
+  normal: {x: 0.82231855, y: 0.2501354, z: -0.5111013}
+  innerSphereRadius: 0.13520963
   scale: 0.15691079
   id: 97
 --- !u!114 &1205144365
@@ -42766,6 +42856,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.61355567, y: -0.25733706, z: 0.70278585}
+  normal: {x: -0.6261776, y: -0.27149594, z: 0.7308841}
+  innerSphereRadius: 0.15168077
   scale: 0.17649224
   id: 40
 --- !u!43 &1207091320
@@ -43203,6 +43295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.73544127, y: -0.00000008925174, z: -0.635803}
+  normal: {x: 0.7435501, y: 0.007715895, z: -0.6686357}
+  innerSphereRadius: 0.1430961
   scale: 0.15691005
   id: 118
 --- !u!1 &1210839403
@@ -43221,7 +43315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1210839404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43871,6 +43965,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.59498453, y: -0.43227687, z: 0.63580614}
+  normal: {x: 0.5970103, y: -0.44328558, z: 0.6686378}
+  innerSphereRadius: 0.144803
   scale: 0.16924901
   id: 18
 --- !u!1 &1218352446
@@ -43918,6 +44014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.52089167, y: -0.66031927, z: -0.48761573}
+  normal: {x: -0.52075356, y: -0.6934244, z: -0.4979742}
+  innerSphereRadius: 0.14309764
   scale: 0.15691042
   id: 1
 --- !u!114 &1223994566
@@ -43933,6 +44031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.46703884, y: 0.6994453, z: 0.48761567}
+  normal: {x: -0.49200353, y: 0.70477307, z: 0.51110417}
+  innerSphereRadius: 0.14309789
   scale: 0.15691134
   id: 45
 --- !u!43 &1226419072
@@ -44651,6 +44751,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.8324639, y: -0.41638035, z: 0.26497355}
+  normal: {x: -0.8563276, y: -0.4416088, z: 0.2677402}
+  innerSphereRadius: 0.15414146
   scale: 0.17941096
   id: 64
 --- !u!43 &1246537007
@@ -44859,6 +44961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.13529159, y: 0.4163785, z: -0.8630796}
+  normal: {x: -0.14273605, y: 0.43928742, z: -0.8869346}
+  innerSphereRadius: 0.15469067
   scale: 0.176492
   id: 90
 --- !u!114 &1259788598
@@ -44874,6 +44978,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.35419363, y: 0.25733656, z: 0.86307925}
+  normal: {x: -0.3736798, y: 0.27149463, z: 0.88693523}
+  innerSphereRadius: 0.15413988
   scale: 0.17867517
   id: 23
 --- !u!1 &1264637721
@@ -45541,6 +45647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.9677547, y: -0.00000014745942, z: 0.0056106006}
+  normal: {x: 0.99986404, y: -0.00000058932875, z: 0.016488196}
+  innerSphereRadius: 0.15414086
   scale: 0.17867804
   id: 53
 --- !u!1 &1281206245
@@ -45616,6 +45724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.61355567, y: 0.25733706, z: 0.70278585}
+  normal: {x: -0.62617755, y: 0.2714957, z: 0.73088425}
+  innerSphereRadius: 0.15168142
   scale: 0.17649315
   id: 24
 --- !u!1 &1286554062
@@ -45784,6 +45894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.92094785, y: -0.29923102, z: 0.00000023962156}
+  normal: {x: 0.94958663, y: -0.3134911, z: -0.0029097414}
+  innerSphereRadius: 0.1525686
   scale: 0.17594102
   id: 146
 --- !u!64 &1299215374
@@ -45827,6 +45939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.43780828, y: -0.0000003537732, z: -0.86307925}
+  normal: {x: -0.4643318, y: 0.00000026416072, z: -0.8856613}
+  innerSphereRadius: 0.15413915
   scale: 0.17940642
   id: 106
 --- !u!1 &1301170348
@@ -46068,6 +46182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.78293115, y: -0.56882936, z: 0.005609124}
+  normal: {x: -0.8228888, y: -0.5676443, z: -0.025177853}
+  innerSphereRadius: 0.15469313
   scale: 0.17649464
   id: 63
 --- !u!1 &1305123282
@@ -46506,6 +46622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.3541942, y: 0.25733617, z: -0.8630792}
+  normal: {x: 0.3756541, y: 0.27292657, z: -0.8856608}
+  innerSphereRadius: 0.151681
   scale: 0.17307273
   id: 95
 --- !u!1 &1322321743
@@ -46829,6 +46947,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.6476363, y: -0.15244697, z: -0.7027865}
+  normal: {x: -0.6653762, y: -0.1460644, z: -0.732079}
+  innerSphereRadius: 0.15168035
   scale: 0.17307185
   id: 105
 --- !u!1 &1330027370
@@ -46936,6 +47056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.29905263, y: 0.92038876, z: -0.0056101824}
+  normal: {x: -0.3089613, y: 0.95088005, z: -0.019234657}
+  innerSphereRadius: 0.15414144
   scale: 0.17940891
   id: 67
 --- !u!1 &1337291749
@@ -47319,6 +47441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6690823, y: 0.66032106, z: 0.24783608}
+  normal: {x: 0.6889078, y: 0.68570983, z: 0.23496409}
+  innerSphereRadius: 0.14425492
   scale: 0.16752091
   id: 128
 --- !u!1 &1342136890
@@ -47757,6 +47881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.27048323, y: 0.8324726, z: 0.43766344}
+  normal: {x: -0.27639058, y: 0.850649, z: 0.4472187}
+  innerSphereRadius: 0.10958606
   scale: 0.13545525
   id: 129
 --- !u!64 &1357283303
@@ -47800,6 +47926,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.27048323, y: -0.8324726, z: 0.43766344}
+  normal: {x: -0.2763892, y: -0.850649, z: 0.44721952}
+  innerSphereRadius: 0.1095864
   scale: 0.13545562
   id: 123
 --- !u!1 &1358849106
@@ -47875,6 +48003,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.82371795, y: -0.00000002522332, z: 0.50909144}
+  normal: {x: 0.85354704, y: 0, z: 0.52101576}
+  innerSphereRadius: 0.1525658
   scale: 0.17593744
   id: 154
 --- !u!64 &1363454133
@@ -47918,6 +48048,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.50908554, y: -0.0000002987993, z: -0.8237216}
+  normal: {x: -0.4235795, y: 0.8671635, z: -0.261931}
+  innerSphereRadius: 0.15256752
   scale: 0.17593831
   id: 138
 --- !u!1 &1368800480
@@ -48121,6 +48253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.9294268, y: 0.14093626, z: -0.2478342}
+  normal: {x: 0.9578585, y: 0.1534227, z: -0.24283433}
+  innerSphereRadius: 0.14425454
   scale: 0.16925108
   id: 15
 --- !u!1 &1389944758
@@ -48917,6 +49051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.29905263, y: -0.92038876, z: -0.0056101824}
+  normal: {x: -0.30896118, y: -0.9508801, z: -0.019234657}
+  innerSphereRadius: 0.15414283
   scale: 0.17941052
   id: 79
 --- !u!1 &1407691509
@@ -49094,6 +49230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.03327609, y: -0.8403821, z: 0.48761585}
+  normal: {x: -0.01621211, y: -0.8593657, z: 0.51110446}
+  innerSphereRadius: 0.14309837
   scale: 0.15691084
   id: 60
 --- !u!43 &1414007805
@@ -49363,6 +49501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.59498453, y: 0.43227687, z: 0.63580614}
+  normal: {x: 0.5970101, y: 0.44328645, z: 0.6686375}
+  innerSphereRadius: 0.14425296
   scale: 0.16751882
   id: 19
 --- !u!1 &1425136857
@@ -49467,6 +49607,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.43433988, y: 0.50400347, z: 0.70278734}
+  normal: {x: -0.45170516, y: 0.5116344, z: 0.73088485}
+  innerSphereRadius: 0.15469262
   scale: 0.17649356
   id: 25
 --- !u!43 &1428051106
@@ -49675,6 +49817,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.5691771, y: -0.7834034, z: -0.0000003608875}
+  normal: {x: -0.5839674, y: -0.81177187, z: -0.002909764}
+  innerSphereRadius: 0.15257037
   scale: 0.17594086
   id: 81
 --- !u!1 &1439196923
@@ -49779,6 +49923,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.15731306, y: -0.4841667, z: -0.82372344}
+  normal: {x: 0.1677195, y: -0.49827686, z: -0.8506411}
+  innerSphereRadius: 0.15196592
   scale: 0.1759379
   id: 135
 --- !u!1 &1442034712
@@ -49905,6 +50051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.9182205, y: -0.15244713, z: 0.26497483}
+  normal: {x: 0.95235497, y: -0.14606509, z: 0.2677405}
+  innerSphereRadius: 0.15167914
   scale: 0.17307274
   id: 54
 --- !u!43 &1445633728
@@ -50361,6 +50509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.42124647, y: 0.8403846, z: 0.24783628}
+  normal: {x: -0.43926734, y: 0.86708474, z: 0.23496445}
+  innerSphereRadius: 0.14425507
   scale: 0.16752079
   id: 130
 --- !u!1 &1459092230
@@ -50684,6 +50834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.8324641, y: 0.4163798, z: 0.2649745}
+  normal: {x: -0.8571306, y: 0.4392883, z: 0.26898497}
+  innerSphereRadius: 0.15168108
   scale: 0.17649451
   id: 42
 --- !u!1 &1463031850
@@ -50846,6 +50998,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.15316637, y: -0.9274888, z: 0.24783614}
+  normal: {x: -0.15428402, y: -0.95968103, z: 0.2349654}
+  innerSphereRadius: 0.14425583
   scale: 0.16752139
   id: 124
 --- !u!1 &1467642493
@@ -50921,6 +51075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.29905224, y: 0.92038894, z: 0.005609922}
+  normal: {x: 0.30897447, y: 0.95092744, z: 0.016486866}
+  innerSphereRadius: 0.15168236
   scale: 0.17649375
   id: 48
 --- !u!4 &1472006306 stripped
@@ -51101,6 +51257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.13529183, y: -0.4163777, z: 0.8630802}
+  normal: {x: 0.1434888, y: -0.44160414, z: 0.8856618}
+  innerSphereRadius: 0.15167971
   scale: 0.17307225
   id: 34
 --- !u!4 &1480876011 stripped
@@ -51122,6 +51280,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.4378078, y: 0, z: 0.8630796}
+  normal: {x: 0.4618955, y: -0.00000034731949, z: 0.8869344}
+  innerSphereRadius: 0.1516797
   scale: 0.17649086
   id: 30
 --- !u!1 &1485159315
@@ -51284,6 +51444,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.809537, y: -0.22804032, z: 0.48761293}
+  normal: {x: -0.82888275, y: -0.25490665, z: 0.4979719}
+  innerSphereRadius: 0.14425342
   scale: 0.16752106
   id: 65
 --- !u!1 &1489374267
@@ -51337,6 +51499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.00000014467028, y: 0.96834075, z: -0.00000009313226}
+  normal: {x: -0.0047108126, y: 0.9999847, z: -0.0029092827}
+  innerSphereRadius: 0.15256903
   scale: 0.17593893
   id: 151
 --- !u!1 &1491586527
@@ -51991,6 +52155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.809537, y: -0.22804034, z: -0.48761302}
+  normal: {x: 0.828883, y: -0.25490624, z: -0.49797168}
+  innerSphereRadius: 0.14425313
   scale: 0.16752048
   id: 98
 --- !u!64 &1511217017
@@ -52034,6 +52200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.19398297, y: 0.14093548, z: 0.94214016}
+  normal: {x: 0.21027112, y: 0.1623086, z: 0.96407574}
+  innerSphereRadius: 0.14309554
   scale: 0.16751797
   id: 29
 --- !u!1 &1518701939
@@ -52253,6 +52421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.6532487, y: 0.6630486, z: 0.26497537}
+  normal: {x: -0.6826584, y: 0.6794291, z: 0.26898628}
+  innerSphereRadius: 0.15414141
   scale: 0.17867829
   id: 44
 --- !u!1 &1528090055
@@ -52955,6 +53125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.66908246, y: 0.66032094, z: -0.24783619}
+  normal: {x: -0.6782871, y: 0.6934268, z: -0.24307604}
+  innerSphereRadius: 0.14309846
   scale: 0.16752076
   id: 12
 --- !u!43 &1561198731
@@ -53755,6 +53927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.074093804, y: -0.22803958, z: -0.94214}
+  normal: {x: 0.08938875, y: -0.25013542, z: -0.9640756}
+  innerSphereRadius: 0.14425291
   scale: 0.1692483
   id: 113
 --- !u!43 &1587072266
@@ -54046,6 +54220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.56917673, y: 0.7834036, z: -0.000000081490725}
+  normal: {x: 0.5915867, y: 0.8062361, z: -0.002909546}
+  innerSphereRadius: 0.15196794
   scale: 0.17524704
   id: 148
 --- !u!64 &1602662109
@@ -54089,6 +54265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.42124647, y: -0.8403846, z: 0.24783614}
+  normal: {x: -0.43926588, y: -0.8670855, z: 0.23496418}
+  innerSphereRadius: 0.14480497
   scale: 0.16925117
   id: 78
 --- !u!1 &1603542781
@@ -54164,6 +54342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.65324795, y: 0.6630495, z: -0.26497537}
+  normal: {x: 0.6826578, y: 0.6794296, z: -0.2689867}
+  innerSphereRadius: 0.15414082
   scale: 0.17867757
   id: 72
 --- !u!43 &1605014998
@@ -54404,6 +54584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.8324633, y: -0.41638082, z: -0.2649745}
+  normal: {x: 0.8563273, y: -0.44160876, z: -0.267741}
+  innerSphereRadius: 0.15414107
   scale: 0.17941065
   id: 76
 --- !u!1 &1609824458
@@ -54740,6 +54922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.8347642, y: 0.43227828, z: 0.24783562}
+  normal: {x: 0.8650353, y: 0.4432896, z: 0.23496427}
+  innerSphereRadius: 0.14309832
   scale: 0.1569123
   id: 70
 --- !u!4 &1620462116 stripped
@@ -54761,6 +54945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.7829313, y: 0.5688289, z: 0.0056100935}
+  normal: {x: -0.80890876, y: 0.587703, z: 0.01648554}
+  innerSphereRadius: 0.15469305
   scale: 0.17649516
   id: 43
 --- !u!1 &1629466915
@@ -55072,6 +55258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.15316646, y: 0.9274887, z: 0.24783616}
+  normal: {x: -0.15428421, y: 0.95968133, z: 0.23496412}
+  innerSphereRadius: 0.1448038
   scale: 0.16924945
   id: 66
 --- !u!43 &1644691301
@@ -55280,6 +55468,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.3541942, y: -0.25733703, z: -0.8630788}
+  normal: {x: 0.3756533, y: -0.27292734, z: -0.8856609}
+  innerSphereRadius: 0.15469173
   scale: 0.17940786
   id: 100
 --- !u!114 &1649549987
@@ -55295,6 +55485,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.25454614, y: 0.78339994, z: -0.5090927}
+  normal: {x: -0.26376516, y: 0.8117686, z: -0.52101797}
+  innerSphereRadius: 0.1519664
   scale: 0.17593832
   id: 142
 --- !u!1 &1651294451
@@ -55348,6 +55540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.7889685, y: 0.2913408, z: 0.48761484}
+  normal: {x: 0.8122954, y: 0.28097808, z: 0.5111043}
+  innerSphereRadius: 0.14425412
   scale: 0.16752107
   id: 51
 --- !u!1 &1654018343
@@ -55631,6 +55825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.809537, y: 0.22804016, z: 0.4876131}
+  normal: {x: -0.8223183, y: 0.25013524, z: 0.5111017}
+  innerSphereRadius: 0.13520956
   scale: 0.15691075
   id: 41
 --- !u!1 &1664752192
@@ -55706,6 +55902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.61355644, y: 0.2573365, z: -0.7027855}
+  normal: {x: 0.6241577, y: 0.27292693, z: -0.73207784}
+  innerSphereRadius: 0.15414023
   scale: 0.1794081
   id: 96
 --- !u!43 &1667370416
@@ -55950,6 +56148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.25454608, y: 0.7833999, z: 0.50909275}
+  normal: {x: 0.2619646, y: 0.80623204, z: 0.53043795}
+  innerSphereRadius: 0.15196683
   scale: 0.17593874
   id: 155
 --- !u!1 &1673930439
@@ -56936,6 +57136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.5949847, y: -0.43227696, z: -0.6358059}
+  normal: {x: -0.6060801, y: -0.43080142, z: -0.6686381}
+  innerSphereRadius: 0.1352097
   scale: 0.15690956
   id: 111
 --- !u!1 &1685047264
@@ -57208,6 +57410,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.7081455, y: -0.5144923, z: 0.437663}
+  normal: {x: 0.72360754, y: -0.5257264, z: 0.447218}
+  innerSphereRadius: 0.10958538
   scale: 0.13545562
   id: 125
 --- !u!43 &1688719677
@@ -57416,6 +57620,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.7081455, y: -0.5144923, z: -0.437663}
+  normal: {x: -0.7236072, y: -0.52572656, z: -0.44721827}
+  innerSphereRadius: 0.10958526
   scale: 0.1354556
   id: 114
 --- !u!1 &1692065618
@@ -57642,6 +57848,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.41185814, y: 0.29922926, z: 0.8237236}
+  normal: {x: 0.4220632, y: 0.31348667, z: 0.85064024}
+  innerSphereRadius: 0.15196519
   scale: 0.17524438
   id: 160
 --- !u!4 &1715915175 stripped
@@ -57663,6 +57871,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.73544097, y: -0.0000000019402555, z: 0.6358033}
+  normal: {x: -0.7435504, y: 0.007717093, z: 0.6686353}
+  innerSphereRadius: 0.14309634
   scale: 0.15691043
   id: 21
 --- !u!1 &1717446331
@@ -57761,6 +57971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.2990527, y: -0.9203888, z: 0.005609746}
+  normal: {x: 0.30897412, y: -0.9509275, z: 0.016487}
+  innerSphereRadius: 0.15168348
   scale: 0.176495
   id: 58
 --- !u!43 &1718637181
@@ -58311,6 +58523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.13876018, y: 0.9203876, z: 0.26497546}
+  normal: {x: 0.15292466, y: 0.95092565, z: 0.26898792}
+  innerSphereRadius: 0.15414117
   scale: 0.1786759
   id: 47
 --- !u!1 &1732065897
@@ -58698,6 +58912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.83476406, y: -0.4322783, z: 0.24783567}
+  normal: {x: 0.8690936, y: -0.43080267, z: 0.24307483}
+  innerSphereRadius: 0.14309692
   scale: 0.15691037
   id: 126
 --- !u!1 &1752749660
@@ -58805,6 +59021,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.7081455, y: 0.51449233, z: -0.437663}
+  normal: {x: -0.7236073, y: 0.5257258, z: -0.44721898}
+  innerSphereRadius: 0.10958645
   scale: 0.13545558
   id: 121
 --- !u!64 &1759883710
@@ -58848,6 +59066,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.91822064, y: 0.15244702, z: -0.26497462}
+  normal: {x: -0.9516401, y: 0.14841282, z: -0.2689884}
+  innerSphereRadius: 0.15469286
   scale: 0.17649549
   id: 86
 --- !u!114 &1764312156
@@ -58863,6 +59083,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.41185817, y: 0.29922944, z: -0.82372344}
+  normal: {x: -0.42856985, y: 0.30452853, z: -0.8506411}
+  innerSphereRadius: 0.15196559
   scale: 0.17524476
   id: 137
 --- !u!1 &1771710829
@@ -58970,6 +59192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.13876058, y: -0.92038757, z: 0.26497528}
+  normal: {x: 0.15292434, y: -0.95092577, z: 0.26898766}
+  innerSphereRadius: 0.1546944
   scale: 0.1764948
   id: 59
 --- !u!4 &1774759705 stripped
@@ -58991,6 +59215,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.07409383, y: 0.2280393, z: 0.9421401}
+  normal: {x: -0.07470886, y: 0.25490415, z: 0.964076}
+  innerSphereRadius: 0.14425264
   scale: 0.1692479
   id: 22
 --- !u!1 &1775926858
@@ -59282,6 +59508,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.22725981, y: 0.69944394, z: 0.6358066}
+  normal: {x: -0.23710562, y: 0.70477164, z: 0.6686388}
+  innerSphereRadius: 0.13521022
   scale: 0.15691069
   id: 20
 --- !u!4 &1782662381 stripped
@@ -59303,6 +59531,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.13876049, y: 0.92038757, z: -0.2649757}
+  normal: {x: -0.15537944, y: 0.9508795, z: -0.26774138}
+  innerSphereRadius: 0.15168191
   scale: 0.17307349
   id: 69
 --- !u!1 &1784286462
@@ -59567,6 +59797,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.25454646, y: -0.78339994, z: -0.50909275}
+  normal: {x: -0.26376525, y: -0.8117689, z: -0.5210174}
+  innerSphereRadius: 0.15196693
   scale: 0.1759392
   id: 82
 --- !u!4 &1801394101 stripped
@@ -59588,6 +59820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.46703884, y: -0.69944537, z: 0.4876156}
+  normal: {x: -0.4920033, y: -0.70477355, z: 0.5111037}
+  innerSphereRadius: 0.14425522
   scale: 0.16925126
   id: 61
 --- !u!1 &1803610695
@@ -59695,6 +59929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.15316638, y: -0.9274888, z: -0.24783629}
+  normal: {x: 0.14115208, y: -0.9596822, z: -0.24307616}
+  innerSphereRadius: 0.1430992
   scale: 0.16752154
   id: 9
 --- !u!43 &1806432630
@@ -59881,6 +60117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.78293073, y: -0.5688296, z: -0.0056100967}
+  normal: {x: 0.82287484, y: -0.56766665, z: 0.02513043}
+  innerSphereRadius: 0.15469302
   scale: 0.17649452
   id: 75
 --- !u!4 &1808648249 stripped
@@ -59902,6 +60140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6476358, y: -0.15244661, z: 0.702787}
+  normal: {x: 0.6661704, y: -0.14841199, z: 0.7308836}
+  innerSphereRadius: 0.15413944
   scale: 0.17867404
   id: 32
 --- !u!1 &1812121059
@@ -60064,6 +60304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.8753147, y: -0.000000004656613, z: 0.43766}
+  normal: {x: -0.8944264, y: -0.00000022023494, z: 0.4472153}
+  innerSphereRadius: 0.10958525
   scale: 0.13545573
   id: 131
 --- !u!64 &1826443904
@@ -60107,6 +60349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.27048323, y: 0.8324726, z: -0.4376634}
+  normal: {x: 0.27639014, y: 0.850649, z: -0.44721884}
+  innerSphereRadius: 0.109586544
   scale: 0.13545582
   id: 119
 --- !u!43 &1828175564
@@ -60491,6 +60735,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.4212462, y: 0.8403848, z: -0.24783632}
+  normal: {x: 0.4498871, y: 0.8593689, z: -0.24307743}
+  innerSphereRadius: 0.14309849
   scale: 0.16752104
   id: 11
 --- !u!1 &1838172327
@@ -60659,6 +60905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.5208915, y: -0.6603192, z: 0.48761576}
+  normal: {x: 0.51824445, y: -0.68570757, z: 0.5111045}
+  innerSphereRadius: 0.1442546
   scale: 0.16924956
   id: 56
 --- !u!1 &1840782238
@@ -61262,6 +61510,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.033276167, y: 0.8403821, z: 0.4876159}
+  normal: {x: -0.01621186, y: 0.85936564, z: 0.51110464}
+  innerSphereRadius: 0.14425386
   scale: 0.16924913
   id: 46
 --- !u!64 &1846757489
@@ -61305,6 +61555,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.91822064, y: 0.15244694, z: 0.26497468}
+  normal: {x: 0.93570834, y: 0.17154008, z: 0.3082595}
+  innerSphereRadius: 0.15413828
   scale: 0.17940773
   id: 52
 --- !u!1 &1848846778
@@ -61409,6 +61661,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.42873523, y: 0.82616806, z: -0.2649758}
+  normal: {x: -0.43321404, y: 0.86060447, z: -0.2677416}
+  innerSphereRadius: 0.15469314
   scale: 0.17940879
   id: 68
 --- !u!4 &1851690191 stripped
@@ -61430,6 +61684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.8753147, y: 0.000000004656613, z: -0.43765995}
+  normal: {x: 0.8944263, y: -0.00000015629386, z: -0.44721547}
+  innerSphereRadius: 0.10958521
   scale: 0.13545568
   id: 117
 --- !u!64 &1852252351
@@ -61473,6 +61729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.6690824, y: -0.66032106, z: 0.24783607}
+  normal: {x: 0.6889074, y: -0.68571, z: 0.23496488}
+  innerSphereRadius: 0.14480503
   scale: 0.16925122
   id: 74
 --- !u!1 &1855686126
@@ -61548,6 +61806,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.055146664, y: 0.663046, z: -0.7027874}
+  normal: {x: -0.06471106, y: 0.6794258, z: -0.73088515}
+  innerSphereRadius: 0.15413904
   scale: 0.17867468
   id: 91
 --- !u!114 &1859645423
@@ -61563,6 +61823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.823718, y: -0.00000010283353, z: -0.5090913}
+  normal: {x: -0.8477247, y: -0.00000039317152, z: -0.53043646}
+  innerSphereRadius: 0.15196623
   scale: 0.1752466
   id: 136
 --- !u!1 &1861724447
@@ -61670,6 +61932,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.52089137, y: 0.6603192, z: 0.48761576}
+  normal: {x: 0.5182439, y: 0.6857081, z: 0.51110435}
+  innerSphereRadius: 0.14309785
   scale: 0.15691057
   id: 50
 --- !u!1 &1866681178
@@ -62035,6 +62299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.569177, y: -0.7834036, z: -0.00000014551915}
+  normal: {x: 0.59158635, y: -0.8062364, z: -0.0029095304}
+  innerSphereRadius: 0.15257056
   scale: 0.175941
   id: 147
 --- !u!4 &1880834591 stripped
@@ -62056,6 +62322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.4118586, y: -0.29922962, z: -0.82372326}
+  normal: {x: -0.42857084, y: -0.3045294, z: -0.8506403}
+  innerSphereRadius: 0.15256675
   scale: 0.17593722
   id: 2
 --- !u!4 &1882465558 stripped
@@ -62077,6 +62345,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.22725987, y: -0.69944406, z: -0.63580644}
+  normal: {x: 0.222427, y: -0.7095414, z: -0.6686383}
+  innerSphereRadius: 0.14425379
   scale: 0.1675201
   id: 116
 --- !u!1 &1884569718
@@ -62876,6 +63146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.9677548, y: 0.0000000019402555, z: -0.0056103515}
+  normal: {x: -0.9998629, y: 0.0015123453, z: -0.016487854}
+  innerSphereRadius: 0.15414073
   scale: 0.17867793
   id: 84
 --- !u!1 &1902637906
@@ -62980,6 +63252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.00000020721926, y: 0, z: 0.97863305}
+  normal: {x: -0.00000044003693, y: -0.00000031970583, z: 1}
+  innerSphereRadius: 0.109584
   scale: 0.13545324
   id: 133
 --- !u!43 &1911749026
@@ -63532,6 +63806,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.25454625, y: -0.78339976, z: 0.50909275}
+  normal: {x: 0.26196525, y: -0.8062319, z: 0.5304379}
+  innerSphereRadius: 0.15196769
   scale: 0.1759392
   id: 153
 --- !u!1 &1919775883
@@ -63606,7 +63882,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f246583d292714545918f3aadd8aab69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalCenter: {x: -0.157313, y: 0.48416635, z: 0.8237239}
+  globalCenter: {x: -0.15731305, y: 0.48416635, z: 0.8237239}
+  normal: {x: -0.15718885, y: 0.501699, z: 0.8506409}
+  innerSphereRadius: 0.15196572
   scale: 0.17593804
   id: 161
 --- !u!64 &1932814089
@@ -63650,6 +63928,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.13876049, y: -0.92038757, z: -0.2649757}
+  normal: {x: -0.15538077, y: -0.9508792, z: -0.26774138}
+  innerSphereRadius: 0.15469442
   scale: 0.17941032
   id: 80
 --- !u!1 &1933590988
@@ -63776,6 +64056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.074093826, y: -0.2280393, z: 0.9421401}
+  normal: {x: -0.07470868, y: -0.25490347, z: 0.9640761}
+  innerSphereRadius: 0.1430961
   scale: 0.15690862
   id: 134
 --- !u!114 &1939525479
@@ -63791,6 +64073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.05514691, y: -0.6630452, z: 0.702788}
+  normal: {x: 0.06669886, y: -0.67794526, z: 0.7320802}
+  innerSphereRadius: 0.15469149
   scale: 0.17940836
   id: 36
 --- !u!1 &1940066581
@@ -64366,6 +64650,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.19398305, y: 0.14093558, z: -0.94214}
+  normal: {x: -0.21934259, y: 0.14982203, z: -0.9640758}
+  innerSphereRadius: 0.14425251
   scale: 0.16751811
   id: 107
 --- !u!1 &1952793376
@@ -64670,6 +64956,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.42124632, y: -0.8403848, z: -0.24783637}
+  normal: {x: 0.4498875, y: -0.8593688, z: -0.24307725}
+  innerSphereRadius: 0.13521206
   scale: 0.15691198
   id: 14
 --- !u!1 &1960875385
@@ -65387,6 +65675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.033276018, y: -0.8403821, z: -0.4876159}
+  normal: {x: 0.013702896, y: -0.8670831, z: -0.49797508}
+  innerSphereRadius: 0.14425458
   scale: 0.16925031
   id: 108
 --- !u!1 &1979513507
@@ -65743,6 +66033,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.9294268, y: -0.14093633, z: -0.2478342}
+  normal: {x: 0.95633143, y: -0.16231114, z: -0.24307473}
+  innerSphereRadius: 0.14480291
   scale: 0.16925107
   id: 10
 --- !u!1 &1992699328
@@ -68031,6 +68323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.91822064, y: -0.152447, z: -0.2649746}
+  normal: {x: -0.9523548, y: -0.14606495, z: -0.26774123}
+  innerSphereRadius: 0.15167919
   scale: 0.17307279
   id: 85
 --- !u!4 &2072436374 stripped
@@ -68052,6 +68346,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.42873523, y: -0.82616806, z: -0.2649758}
+  normal: {x: -0.43321493, y: -0.86060405, z: -0.26774135}
+  innerSphereRadius: 0.15168312
   scale: 0.17307498
   id: 0
 --- !u!64 &2075174939
@@ -68095,6 +68391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.1531663, y: 0.9274887, z: -0.24783628}
+  normal: {x: 0.14115234, y: 0.95968205, z: -0.24307688}
+  innerSphereRadius: 0.1352108
   scale: 0.15691012
   id: 16
 --- !u!1 &2075465235
@@ -68386,6 +68684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.61355627, y: -0.25733715, z: -0.7027853}
+  normal: {x: 0.6241579, y: -0.27292758, z: -0.7320774}
+  innerSphereRadius: 0.15414007
   scale: 0.17940792
   id: 99
 --- !u!43 &2079153782
@@ -68594,6 +68894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.8324633, y: 0.41638076, z: -0.26497453}
+  normal: {x: 0.85713, y: 0.4392892, z: -0.2689855}
+  innerSphereRadius: 0.15168154
   scale: 0.17649491
   id: 73
 --- !u!64 &2086932645
@@ -68637,6 +68939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.83476424, y: -0.43227822, z: -0.24783583}
+  normal: {x: -0.8690932, y: -0.43080246, z: -0.2430769}
+  innerSphereRadius: 0.14309704
   scale: 0.15691046
   id: 8
 --- !u!1 &2087224383
@@ -68684,6 +68988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.666402, y: 0.48416796, z: 0.50909156}
+  normal: {x: -0.6858246, y: 0.49827886, z: 0.5304365}
+  innerSphereRadius: 0.15256818
   scale: 0.17594033
   id: 156
 --- !u!43 &2089608180
@@ -68892,6 +69198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.92942685, y: 0.14093608, z: 0.24783425}
+  normal: {x: -0.95785874, y: 0.1534215, z: 0.24283446}
+  innerSphereRadius: 0.14425425
   scale: 0.1692509
   id: 83
 --- !u!43 &2092699594
@@ -69219,6 +69527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.46703875, y: -0.69944555, z: -0.4876156}
+  normal: {x: 0.4985664, y: -0.7095437, z: -0.49797508}
+  innerSphereRadius: 0.14309812
   scale: 0.15691154
   id: 102
 --- !u!43 &2107076819
@@ -69405,6 +69715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.23977628, y: -0.00000020275668, z: -0.94213945}
+  normal: {x: 0.25680634, y: -0.0071989167, z: -0.966436}
+  innerSphereRadius: 0.14309597
   scale: 0.1675187
   id: 6
 --- !u!4 &2118426007 stripped
@@ -69426,6 +69738,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.7889685, y: -0.29134083, z: 0.48761493}
+  normal: {x: 0.8204107, y: -0.28097808, z: 0.4979735}
+  innerSphereRadius: 0.13520852
   scale: 0.15690924
   id: 55
 --- !u!1 &2119353745
@@ -69501,6 +69815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.13529252, y: -0.41637817, z: -0.86307985}
+  normal: {x: -0.14273492, y: -0.4392874, z: -0.88693476}
+  innerSphereRadius: 0.15413946
   scale: 0.17867543
   id: 110
 --- !u!1 &2126305812
@@ -69605,6 +69921,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.00000020954758, y: 0, z: -0.97863305}
+  normal: {x: 0.0000024079388, y: -0.00000031971317, z: -1}
+  innerSphereRadius: 0.10958434
   scale: 0.13545324
   id: 112
 --- !u!43 &2128739375
@@ -70039,6 +70357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.7889687, y: -0.29134086, z: -0.48761475}
+  normal: {x: -0.8204105, y: -0.2809784, z: -0.4979736}
+  innerSphereRadius: 0.13520844
   scale: 0.15690935
   id: 5
 --- !u!43 &2141079093
@@ -70225,6 +70545,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: -0.92094827, y: 0.29923058, z: -0.00000012708674}
+  normal: {x: -0.952498, y: 0.3045308, z: -0.0029105395}
+  innerSphereRadius: 0.1519653
   scale: 0.17524575
   id: 144
 --- !u!1 &2147184809
@@ -70278,6 +70600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalCenter: {x: 0.00000001624964, y: -0.96834075, z: -0.00000017268272}
+  normal: {x: -0.004710809, y: -0.9999847, z: -0.002909281}
+  innerSphereRadius: 0.15196882
   scale: 0.17524783
   id: 145
 --- !u!1001 &2264825325740329961

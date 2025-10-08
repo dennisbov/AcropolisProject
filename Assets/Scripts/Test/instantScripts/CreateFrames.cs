@@ -24,6 +24,11 @@ public class CreateFrames : MonoBehaviour
             {
                 if (_tile.childCount > 0)
                     _tile.GetChild(0).gameObject.SetActive(false);
+                if (_tile.childCount > 1)
+                {
+                    _tile.GetChild(1).transform.parent = null;
+                    _tile.GetChild(1).transform.parent = null;
+                }
                 
             }
             for(int i = 0; i < _planet.childCount; i++)
@@ -47,7 +52,8 @@ public class CreateFrames : MonoBehaviour
                 center = center / mesh.vertices.Length;
                 tile.globalCenter = center * _tile.lossyScale.x;
                 tile.scale = Vector3.Distance(center, mesh.vertices[0])*_tile.lossyScale.x;
-                tile.normal = new Plane(center, mesh.vertices[0], thirdVertex).normal;
+                tile.normal = new Plane(thirdVertex * _tile.lossyScale.x, mesh.vertices[0] * _tile.lossyScale.x, center * _tile.lossyScale.x).normal;
+                tile.innerSphereRadius = Vector3.Distance((mesh.vertices[0] * _tile.lossyScale.x + mesh.vertices[1] * _tile.lossyScale.x)/2, tile.globalCenter);
             }
             if (_onlyDestroy)
                 return;
