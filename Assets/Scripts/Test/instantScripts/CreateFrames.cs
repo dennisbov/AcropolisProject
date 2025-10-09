@@ -54,6 +54,7 @@ public class CreateFrames : MonoBehaviour
                 tile.scale = Vector3.Distance(center, mesh.vertices[0])*_tile.lossyScale.x;
                 tile.normal = new Plane(thirdVertex * _tile.lossyScale.x, mesh.vertices[0] * _tile.lossyScale.x, center * _tile.lossyScale.x).normal;
                 tile.innerSphereRadius = Vector3.Distance((mesh.vertices[0] * _tile.lossyScale.x + mesh.vertices[1] * _tile.lossyScale.x)/2, tile.globalCenter);
+                TileGeometryRepository.Instance.AddTileGeometry(tile);
             }
             if (_onlyDestroy)
                 return;
