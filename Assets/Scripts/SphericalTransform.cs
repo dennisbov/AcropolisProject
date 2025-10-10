@@ -28,19 +28,21 @@ public class SphericalTransform : MonoBehaviour
         transform.position = rayStart;
     }
 
-    public void MoveTowards(Vector3 targetPosition, float maxDistanceDelta)
+    public void MoveTowards(TileCoordinates targetPosition, float maxDistanceDelta)
     {
+        Vector3 targetGlobalPosition = translateFromLocalToGlobal(targetPosition);
         Vector3 planetCenter = _planetCenter.position;
         Vector3 resultVector = Vector3.RotateTowards(
             transform.position - planetCenter,
-            targetPosition - planetCenter,
+            targetGlobalPosition - planetCenter,
             maxDistanceDelta,
             1);
         transform.position = findRaycastHitOnPlanet(resultVector + planetCenter).point;
     }
 
-    public void LookAt(Vector3 position)
+    public void LookAt(TileCoordinates targetPosition)
     {
+        Vector3 position = translateFromLocalToGlobal(targetPosition);
         Plane plane = new Plane(_planetCenter.position, transform.position, position);
         Vector3 normal = findRaycastHitOnPlanet(transform.position).normal;
         Quaternion resultRotation = new Quaternion();
@@ -48,8 +50,9 @@ public class SphericalTransform : MonoBehaviour
         transform.rotation = resultRotation;
     }
 
-    public void LookTowards(Vector3 position, float speed)
+    public void LookTowards(TileCoordinates targetPosition, float speed)
     {
+        Vector3 position = translateFromLocalToGlobal(targetPosition);
         Plane plane = new Plane(_planetCenter.position, transform.position, position);
         Vector3 normal = findRaycastHitOnPlanet(transform.position).normal;
         Quaternion resultRotation = new Quaternion();
@@ -57,8 +60,9 @@ public class SphericalTransform : MonoBehaviour
         transform.rotation = Quaternion.RotateTowards(transform.rotation, resultRotation, speed);
     }
     
-    public float LookAngle(Vector3 position)
+    public float LookAngle(TileCoordinates targetPosition)
     {
+        Vector3 position = translateFromLocalToGlobal(targetPosition);
         Plane plane = new Plane(_planetCenter.position, transform.position, position);
         Vector3 normal = findRaycastHitOnPlanet(transform.position).normal;
         Quaternion resultRotation = new Quaternion();
@@ -80,5 +84,20 @@ public class SphericalTransform : MonoBehaviour
             Debug.LogError("missing surface for object " + gameObject.name);
             return new RaycastHit();  
         }
+    }
+
+    private Vector3 translateFromLocalToGlobal(TileCoordinates localCoordinates)
+    {
+        Vector3 globalPosition = new Vector3();
+
+        TileGeometry geometry = TileGeometryRepository.Instance.getTileGeometry(localCoordinates.geometryId);
+        Vector3 rightAxis = Vector3.Cross(localCoordinates.forwardAxis, geometry.normal).normalized;
+
+        globalPosition = geometry.globalCenter
+            + (rightAxis * localCoordinates.localPosition.x
+            + localCoordinates.forwardAxis * localCoordinates.localPosition.y)
+            * geometry.innerSphereRadius;
+        globalPosition = Vector3.ClampMagnitude(globalPosition, geometry.innerSphereRadius);
+        return globalPosition;
     }
 }

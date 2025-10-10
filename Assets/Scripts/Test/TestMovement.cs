@@ -10,8 +10,8 @@ namespace ProjectAcropolis
     public class TestMovement : MonoBehaviour
     {
         private SphericalTransform _sphericalTransform;
-        private Queue<Vector3> _targetPositions;
-        private Vector3 _currentTarget;
+        private Queue<TileCoordinates> _targetPositions;
+        private TileCoordinates _currentTarget;
         [SerializeField] private float _maxSpeed;
         [SerializeField] private float _acceleration;
         [SerializeField] private float _rotationSpeed;
@@ -28,7 +28,7 @@ namespace ProjectAcropolis
         {
             _sphericalTransform = GetComponent<SphericalTransform>();
             _currentTarget = transform.position;
-            _targetPositions = new Queue<Vector3>();
+            _targetPositions = new Queue<TileCoordinates>();
             _pointToFollow = transform.position;
         }
 
